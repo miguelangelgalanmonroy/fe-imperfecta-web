@@ -544,41 +544,69 @@
         }
 
         /* RESPONSIVE */
-        @media (max-width: 768px) {
-            nav {
-                padding: 15px 20px;
-            }
+       @media (max-width: 768px) {
+    nav {
+        padding: 15px 20px;
+    }
 
-            .nav-links {
-                gap: 15px;
-            }
+    .hero-title {
+        font-size: 36px;
+        letter-spacing: 4px;
+    }
 
-            .nav-links a {
-                font-size: 11px;
-            }
+    .hero-title span {
+        font-size: 42px;
+        letter-spacing: 3px;
+    }
 
-            .book-section {
-                flex-direction: column;
-                text-align: center;
-                gap: 40px;
-            }
+    .hero-subtitle {
+        font-size: 16px;
+        padding: 0 20px;
+    }
 
-            .book-cover {
-                width: 260px;
-            }
+    .hero-author {
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
 
-            .podcasts-grid {
-                grid-template-columns: 1fr;
-            }
+    .book-section {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
 
-            section {
-                padding: 80px 20px;
-            }
+    .book-cover {
+        width: 260px;
+    }
 
-            .social-links {
-                gap: 20px;
-            }
-        }
+    .podcasts-grid {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    .social-links {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero-title {
+        font-size: 28px;
+        letter-spacing: 2px;
+    }
+
+    .hero-title span {
+        font-size: 34px;
+        letter-spacing: 2px;
+    }
+
+    .hero-subtitle {
+        font-size: 14px;
+    }
+}
 
         /* ANIMACIONES SCROLL */
         .fade-in {
